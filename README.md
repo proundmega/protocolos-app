@@ -2,6 +2,10 @@ Este es un proyecto hecho en Spring Boot que se usara para la materia
 de protocolos de comuncacion. Es una sibmple app de logeo que se replicara
 entre otros servidores usando redis.
 
-Para que todo funcione ejecuta los siguientes comandos:
+La documentacion de parametros esta en:
 
-git clone 
+https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+
+Para correrlo personalizado usa:
+
+java -jar myapp.jar --spring.application.json='{"foo":"bar"}'
