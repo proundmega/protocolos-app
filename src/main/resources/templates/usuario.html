@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Bienvenido usuario!!!</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        Informacion de su session...
+        <br />
+        Nombre de usuario: <p th:text="${usuario}"></p>
+        <br/>
+        Tiempo actual: <p th:text="${tiempo}"></p>
+        <br/>
+        Nombre del host: <p th:text="${hostname}" ></p>
+        <br/>
+        <a th:href="@{/logout}" >Salir</a>
+    </body>
+</html>
